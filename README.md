@@ -94,6 +94,7 @@ Display total electricity used by customers.
 END
  
 CARD GAME
+
 BEGIN
 Welcome user to game.
 Ask user to enter first value of card.
