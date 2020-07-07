@@ -2,13 +2,6 @@
 
 Program Design, Pseudocode and Algorithms Exercies
 
-
-
-
-
-
-
-
 FIND THE AVERAGE SCORE
 
 BEGIN
@@ -71,7 +64,7 @@ Print estimate of wood fence with tax.
 Print estimate of chain fence with tax.
 END 
 
-Fence cost algorithm
+Fence cost algorithm:
 fenceCost = (fenceFencing + fenceGateCost) * fenceTax
 
   
@@ -112,5 +105,5 @@ Ask if user would like to continue.
 Display goodbye message.
 END 
 
-Card game algorithm
+Card game algorithm:
 cardSum = card1 + card2
