@@ -10,7 +10,7 @@ Pseudocode
 
 
 
-AVERAGE SCORE
+1. FIND THE AVERAGE SCORE
 
 BEGIN
 
@@ -21,30 +21,19 @@ Calculate the average of the scores by dividing the sum by the number of scores.
 Display score average.
 END
 
-WATER
+HOW MUCH WATER RUNS OFF THE ROOF?
 
 BEGIN
-Prompt user to enter roof dimensions in inches.
+Prompt user to enter roof dimensions.
+Convert roof dimensions to inches.
 Prompt user to enter amount of rainfall in inches.
-Multiply roof dimensions by number of inches of rainfall.
-Divide total by 231 to calculate runoff.
+Multiply roof dimensions by number of cubic inches of rainfall.
+One gallon equals 231 cubic inches.
+Divide total by 231 to calculate runoff in gallons.
 Display runoff. 
 END
 
-
-EMPLOYEE PAY
-
-BEGIN
-Ask user for employee number, number of hours worked that week and hourly rate.
-Validate the hourly rate doesn't exceed maximum rate of $25.
-Validate number of hours doesn't exceed maximum of 60 hours per week.
-Calculate employee weekly salary for regular hours.
-Calculate employee weekly salary for overtime hours. 
-Display weekly pay for each employee. 
-END
-
-
-CUSTOMER RECORD
+PROCESS CUSTOMER RECORD
 
 BEGIN
 Prompt user for customer name, customer purchase amount and tax code.
@@ -53,7 +42,19 @@ Calculate total amount due.
 Display customer name, purchase amount, sales tax and total amount due. 
 END
 
-FENCE
+CALCULATE EMPLOYEE PAY
+
+BEGIN
+Ask user for employee number, number of hours worked that week and hourly rate.
+Validate the hourly rate doesn't exceed maximum rate of $25.
+Validate number of hours doesn't exceed maximum of 60 hours per week.
+Display error message if input is invalid.
+Calculate employee weekly salary hours worked up to 35.
+Calculate employee weekly salary for hours worked over 35. 
+Display weekly pay for each employee. 
+END
+
+HOW MUCH SHOULD A FENCE COST?
 
 BEGIN
 Ask user what type of fence they would like.
@@ -74,9 +75,10 @@ END
 METRIC CONVERSION
 
 BEGIN
-Ask for fifteen measurements in inches.
+Ask user for each fifteen measurements in inches one at a time..
 Convert each measurement to millimeters.
 Display each measurement in millimeters.
+Display record of all measurements.
 Print message, "All measurements processed."  
 END
   
@@ -85,10 +87,10 @@ ELECTRICITY USAGE
 BEGIN
 Ask user for customer number, customer name and usage in kilowatt hours.
 Calculate amount customer owes for usage of up to 200 hours at standard rate.
-Calculate amount owws for usage beyond 200 hours at discounted rate
+Calculate amount owws for usage over 200 hours at discounted rate
 Calculate amount customer owes.
 Display how much customer owes.
-Print report.
+Print report of customer usage.
 Display total electricity used by customers. 
 END
  
@@ -97,6 +99,7 @@ BEGIN
 Welcome user to game.
 Ask user to enter first value of card.
 Ask user to enter second value of card.
+End program if user enters two zeros.
 Calculate sum of cards
 Display sum of cards.
 If card value is 21 display sum and message, "You Win."
