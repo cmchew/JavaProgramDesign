@@ -2,70 +2,7 @@
 
 Program Design, Pseudocode and Algorithms Exercies
 
-FIND THE AVERAGE SCORE
-
-BEGIN
-
-END
-Prompt user for ten exam scores.
-Calculate the sum of othe ten scores
-Calculate the average of the scores by dividing the sum by the number of scores.
-Display score average.
-END
-
-HOW MUCH WATER RUNS OFF THE ROOF?
-
-BEGIN
-Prompt user to enter roof dimensions.
-Convert roof dimensions to inches.
-Prompt user to enter amount of rainfall in inches.
-Multiply roof dimensions by number of cubic inches of rainfall.
-One gallon equals 231 cubic inches.
-Divide total by 231 to calculate runoff in gallons.
-Display runoff. 
-END
-
-PROCESS CUSTOMER RECORD
-
-BEGIN
-Prompt user for customer name, customer purchase amount and tax code.
-Calculate sales tax based on tax code. 
-Calculate total amount due.
-Display customer name, purchase amount, sales tax and total amount due. 
-END
-
-CALCULATE EMPLOYEE PAY
-
-BEGIN
-Ask user for employee number, number of hours worked that week and hourly rate.
-Validate the hourly rate doesn't exceed maximum rate of $25.
-Validate number of hours doesn't exceed maximum of 60 hours per week.
-Display error message if input is invalid.
-Calculate employee weekly salary hours worked up to 35.
-Calculate employee weekly salary for hours worked over 35. 
-Display weekly pay for each employee. 
-END
-
-HOW MUCH SHOULD A FENCE COST?
-
-BEGIN
-Ask user what type of fence they would like.
-Tell user cost of wood fence per square foot.
-Tell user cost of chain fence per square foot.
-Ask user for square footage of yard. 
-Calculate wooden fence cost and print estimate.
-Calculate chain fence cost and print estimate.
-Tell user cost of gates.
-Calculate gate cost and print.
-Tell user cost of sales tax.
-Calculate tax on fence.
-Tell user cost of building permit. 
-Print estimate of wood fence with tax.
-Print estimate of chain fence with tax.
-END 
-
-Fence cost algorithm:
-fenceCost = (fenceFencing + fenceGateCost) * fenceTax
+FIND THE AVERAGE SCOREBEGINPROMPT user for exam score one.PROMPT  user for exam score two.PROMPT  user for exam score three.PROMPT  user for exam score four.PROMPT  user for exam score five.PROMPT  user for exam score six.PROMPT  user for exam score seven.PROMPT  user for exam score eightPROMPT  user for exam score nine.PROMPT  user for exam score ten.CALCULATE the sum of ten scores.scoreSum=score1 + score2 + score3 + score4 + score5 + score6 + score7 + score8 + score9 + score10PRINT sum of the score.CALCULATE the average of the scores. scoreAverage = scoreSum/numberOfScoresPRINT scoreAverageENDHOW MUCH WATER RUNS OFF THE ROOF?BEGININITIALIZE  known values.one foot = 12 inchesone gallon = 231 cubic feet of waterPROMPT  user to enter roof dimensions in feet.CONVERT roof dimensions to inches.roofInches = numberOfFeet * 12PROMPT user to enter amount of rainfall in inches.CALCULATE runoff in cubic inches of water.runoff = roofInches * cubicRainfall.CALCULATE runoff in gallons. gallonsRunoff = cubicRainfall/231 PRINT runoff in gallonsENDPROCESS CUSTOMER RECORDBEGINPROMPT user for customer name.PROMPT user for customer purchase amount. PROMPT  user for tax code.CALCULATE sales tax based on tax code.0 taxExempt = .0;1 state = .03;2 double federalState = .05;3 double special = .07;salesTax = purchaseAmount * taxRateCALCULATE total amount due.totalDue = purchaseAmount + salesTaxPRINT customer name.PRINT purchase amount.PRINT sales tax. PRINT total amount due. ENDCALCULATE EMPLOYEE PAYBEGINPROMPT user for employee number.PROMPT user for number of hours worked that week.PROMPT user for hourly rate.VALIDATE the hourly rate doesn't exceed maximum rate of $25.VALIDATE number of hours doesn't exceed maximum of 60 hours per week.PRINT error message if input is invalid.CALCULATE employee weekly salary hours worked up to 35 at hourly rate.employeeSalary = hoursWorked * hourlyRateCALCULATE employee weekly salary for hours worked over 35 time and half. (overtime)overtimeRate = hourlyRate + hourlyRate * .50CALCULATE overtimeHoursovertimeHours = hoursWorked = standardHoursCALCULATE overtime payovertimePay = overtimeHours * overtimeRatePRINT weekly pay for each employee. ENDHOW MUCH SHOULD A FENCE COST?BEGINPROMPT user what type of fence they would like.PRINT cost of wood fence per square foot.PRINT cost of chain fence per square foot.PROMPT user for square footage of yard. CALCULATE wooden fence cost.woodFenceCost = $25 * squareFootagePRINT estimate.CALCULATE chain fence cost.chainFenceCost = $15 * squareFootagePRINT estimate.DISPLAY message advising customer cost of gates @$150 each.DISPLAY message advising customer there is a minimum of one gate and maximum of three gates.PROMPT user to input number of gates.VALIDATE number of gates entered to be greater than 1 and less than 4.DISPLAY error message if gate number is invalid.CALCULATE gate cost.gateCost = numberOfGates * 150 PRINT gate costs.DISPLAY message advising  sales tax of 6 percent on materials.CALCULATE tax on fence.DISPLAY cost of building permit, $50. PRINT estimate of wood fence with tax.PRINT estimate of chain fence with tax.END
 
   
 METRIC CONVERSION
