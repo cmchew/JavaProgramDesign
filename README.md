@@ -1,6 +1,6 @@
 # JavaProgramDesign
 
-Pseudocode
+Program Design, Pseudocode and Algorithms Exercies
 
 
 
@@ -70,6 +70,10 @@ Tell user cost of building permit.
 Print estimate of wood fence with tax.
 Print estimate of chain fence with tax.
 END 
+
+Fence cost algorithm
+fenceCost = (fenceFencing + fenceGateCost) * fenceTax
+
   
 METRIC CONVERSION
 
@@ -107,4 +111,6 @@ If card vlue is not 21 display sum of cards.
 Ask if user would like to continue. 
 Display goodbye message.
 END 
- 
+
+Card game algorithm
+cardSum = card1 + card2
